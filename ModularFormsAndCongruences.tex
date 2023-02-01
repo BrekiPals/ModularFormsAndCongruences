@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{MT}
+\usepackage{graphicx}
+\usepackage[toc]{appendix}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references}
+
+
+
+\makeindex[options={-s prerequisites.ist}]
+
+\begin{document}
+
+\title{Modular forms and congruences}
+\author{Breki Pálsson}
+\date{13. february 2023}
+
+\maketitle
+
+\input{prerequisites}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\printindex
+\addcontentsline{toc}{chapter}{Index}
+
+\end{document}
+
+
